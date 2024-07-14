@@ -13,6 +13,7 @@ function App() {
         <button onClick={() => dispatch(increment())} className="px-3 py-2 rounded-md bg-green-500 text-xl font-semibold text-white">
           increment
         </button>
+        
         <button onClick={() => dispatch(incrementByValue(5))} className="px-3 py-2 rounded-md bg-green-500 text-xl font-semibold text-white">
           incrementByValue
         </button>
